@@ -23,7 +23,8 @@
 		<dd>${zaakvoerder.gehuwd ? 'Ja' : 'Nee'}</dd>
 		<dt>Adres</dt>
 		<dd>${zaakvoerder.adres.straat}<br>
-			${zaakvoerder.adres.huisNr}<br> ${zaakvoerder.adres.postcode}<br>
+			${zaakvoerder.adres.huisNr}<br> 
+			${zaakvoerder.adres.postcode}<br>
 			${zaakvoerder.adres.gemeente}
 		</dd>
 	</dl>
